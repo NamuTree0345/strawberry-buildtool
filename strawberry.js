@@ -6,7 +6,8 @@ const commands = [
     require('./commands/help'),
     require('./commands/usedModules'),
     require('./commands/init'),
-    require('./commands/build')
+    require('./commands/build'),
+    require('./commands/listenWebhook')
 ]
 
 const args = process.argv
@@ -26,6 +27,10 @@ try {
 
     if(args[2] === 'build') {
         return commands[3]()
+    }
+
+    if(args[2] === 'listenwebhook') {
+        return commands[4]()
     }
     
     return commands[0]()
