@@ -15,6 +15,11 @@ module.exports = () => {
     })
     app.post('/', (req,res) => {
         console.log(req.body)
+        if(req.body.repository !== undefined) {
+            console.log('>> ' + req.body.repository.pusher.name + '님이 푸시를 하셨습니다. 빌드를 시작합니다.')
+            const build = require('./build')
+            build()
+        }
         return res.json({stat: 'OK'})
     })
     app.listen(60214, () => {
