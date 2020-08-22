@@ -5,6 +5,6 @@
 		{"processName": "node", "runTimeMs": 1000, "processArgument": "hello.js"}
 	],
 	"postProcesses": [
-		{"processName": "node", "processArgument": "hello.js"}
+		{"processName": "node", "processArgument": "hello1.js"}
 	]
 }

@@ -5,7 +5,8 @@ console.log(chalk.bold(chalk.redBright('>>>> Strawberry Builder')))
 const commands = [
     require('./commands/help'),
     require('./commands/usedModules'),
-    require('./commands/init')
+    require('./commands/init'),
+    require('./commands/build')
 ]
 
 const args = process.argv
@@ -21,6 +22,10 @@ try {
 
     if(args[2] === 'init') {
         return commands[2]()
+    }
+
+    if(args[2] === 'build') {
+        return commands[3]()
     }
     
     return commands[0]()
