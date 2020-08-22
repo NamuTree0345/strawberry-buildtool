@@ -10,5 +10,6 @@ module.exports = () => {
     console.log(chalk.bold('>> 빌드'))
     console.log('>> build - 현재 디렉터리를 빌드합니다.')
     console.log('>> init - StrawberryFile.json을 만듭니다.')
+    console.log('>> listenwebhook - 푸쉬가 되면 현재 디렉터리를 빌드합니다. 이스케이프 문자: ^C')
     console.log()
 }
