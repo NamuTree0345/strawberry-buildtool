@@ -1,0 +1,26 @@
+{
+  "name": "strawberry",
+  "version": "1.0.0",
+  "description": "The buildtool",
+  "main": "strawberry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NamuTree0345/strawberry-buildtool.git"
+  },
+  "keywords": [
+    "buildtool",
+    "strawberry"
+  ],
+  "author": "NamuTree0345",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/NamuTree0345/strawberry-buildtool/issues"
+  },
+  "homepage": "https://github.com/NamuTree0345/strawberry-buildtool#readme",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
+}
