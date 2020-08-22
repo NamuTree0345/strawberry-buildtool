@@ -1,1 +1,1 @@
-throw Error
+console.log('HELLO! 1')
