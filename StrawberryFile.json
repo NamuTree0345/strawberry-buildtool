@@ -2,9 +2,8 @@
 	"projectName": "흠흠",
 	"projectDesc": "이 파일의 이름을 바꾸세요",
 	"processes": [
-		{"processName": "node", "runTimeMs": 1000, "processArgument": "hello.js"}
+		{"processName": "node", "runTimeMs": 1000, "processArgument": "strawberry.js"}
 	],
 	"postProcesses": [
-		{"processName": "node", "processArgument": "hello1.js"}
 	]
 }
